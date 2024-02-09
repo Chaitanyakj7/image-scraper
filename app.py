@@ -7,7 +7,7 @@ import logging
 import pymongo
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 import os
-
+#hi
 app = Flask(__name__)
 
 @app.route("/", methods = ['GET'])
